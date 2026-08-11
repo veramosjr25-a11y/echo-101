@@ -6,13 +6,14 @@ min_number=0
 max_number=100
 
 # TO DO: Ask the user to enter a score
-your code here
-
+#your code here
+read -p "Enter your score: " score_input
 # TO DO: Determine if the score is valid
-your code here
-your code here
-your code here
-your code here
-
+#your code here
+#your code here
+#your code here
+#your code here
+Enter_score=$(((score_input >= min_number && score_input <= max_number)) && echo Valid || echo Invalid)
 # TO DO: Print the result
-your code here
+#your code here
+echo "$Enter_score"
