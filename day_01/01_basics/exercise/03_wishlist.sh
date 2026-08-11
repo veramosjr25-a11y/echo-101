@@ -6,6 +6,9 @@ price=""        # How much is the item?
 organic=""     # Is it organic?
 
 # Print each information one line at a time
-your code here
-your code here
-your code here
+name="chicken adobo"
+echo "Menu: $name"
+price=25
+echo "Cost:$price"
+organic=True
+echo "Organic: $organic"
